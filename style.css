@@ -1,0 +1,33 @@
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  opacity: 1;
+  transition: 0.7s;
+}
+.fade {
+  opacity: 0;
+  transition: none;
+}
+img {
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.nav {
+  list-style-type: none;
+  padding: 20px;
+}
+li {
+  display: inline;
+  padding: 20px 30px;
+  margin: 0 20px;
+  font-size: 30px;
+}
+li:hover {
+  color: rgba(9, 0, 0, 0.5);
+}
+h1 {
+  font-size: 40px;
+}
