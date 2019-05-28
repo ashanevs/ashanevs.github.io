@@ -38,6 +38,7 @@ footer {
   padding: 20px;
   color: black;
   text-align: right;
+  flex-shrink: 0;
 }
 .content {
   display: flex;
