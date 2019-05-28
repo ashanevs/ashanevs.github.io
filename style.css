@@ -6,12 +6,12 @@ body {
   color: white;
 }
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   padding: 20px;
   margin: 0;
 }
 main {
-  padding: 20px;
+  margin: 20px;
 }
 a {
   text-decoration: none;
@@ -24,7 +24,7 @@ a:hover {
 }
 .container {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
