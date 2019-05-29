@@ -6,9 +6,17 @@ body {
   color: white;
 }
 h1 {
-  font-size: 35px;
+  font-family: Great Vibes;
+  font-size: 50px;
   padding: 20px;
   margin: 0;
+}
+.my-name {
+  color: black;
+}
+.my-name:hover {
+  text-decoration: none;
+  color: black;
 }
 main {
   margin: 20px;
@@ -22,6 +30,7 @@ a:hover {
   text-decoration: underline;
   color: lightseagreen;
 }
+
 .container {
   width: 100%;
   height: 100vh;
@@ -43,7 +52,7 @@ footer {
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   margin: 0px 20px;
 }
 .email {
@@ -51,6 +60,16 @@ footer {
 }
 .email:hover {
   color: black;
+}
+embed {
+  margin: 20px auto;
+}
+.home {
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+#tower-project {
+  width: 50%;
 }
 @media only screen and (max-width: 600px) {
   h1 {
