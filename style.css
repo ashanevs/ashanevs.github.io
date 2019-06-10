@@ -31,23 +31,42 @@ a:hover {
   color: lightseagreen;
 }
 
-.container {
+.container-index {
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+.container-resume {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
 header {
   background: lightseagreen;
   color: black;
 }
 footer {
-  background-color: lightseagreen;
   padding: 20px;
   color: black;
   text-align: right;
   flex-shrink: 0;
+}
+.projects {
+  height: 700px;
+  display: flex;
+  justify-content: center;
 }
 .content {
   display: flex;
@@ -55,11 +74,11 @@ footer {
   align-items: flex-start;
   margin: 0px 20px;
 }
-.email {
-  color: black;
+.resume {
+  margin: 0 auto;
 }
-.email:hover {
-  color: black;
+.email {
+  color: white;
 }
 embed {
   margin: 20px auto;
@@ -68,8 +87,8 @@ embed {
   text-align: center;
   margin: 40px 0px 0px 0px;
 }
-#tower-project {
-  width: 50%;
+.project-image {
+  height: 300px;
 }
 @media only screen and (max-width: 600px) {
   h1 {
