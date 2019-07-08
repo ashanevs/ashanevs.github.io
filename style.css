@@ -19,8 +19,8 @@
   margin-bottom: 30px;
 }
 .project {
-  transition: all 0.6s ease;
-  box-shadow: 8px 8px 10px lightgrey;
+  transition: all 0.3s ease;
+  box-shadow: 8px 8px 10px #757575;
   margin: 0px 20px;
   position: relative;
 }
@@ -44,7 +44,7 @@ a:hover {
   display: none;
   width: 500px;
   height: 300px;
-  background: rgba(137, 158, 160, 0.5);
+  background: rgba(117, 117, 117, 0.5);
 }
 .project:hover > .link {
   display: flex;
