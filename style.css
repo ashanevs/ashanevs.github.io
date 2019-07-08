@@ -32,19 +32,19 @@ a:visited {
   padding: 15px;
   background: white;
   margin: 10px 0px;
-  border: 1px solid black;
   border-radius: 5px;
 }
 a:hover {
-  background: black;
+  background: #222222;
   color: white;
 }
 .link {
   position: absolute;
   display: none;
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   background: rgba(117, 117, 117, 0.5);
+  animation: fade-in 0.5s;
 }
 .project:hover > .link {
   display: flex;
@@ -64,10 +64,22 @@ img {
 }
 .intro-container {
   background: #f5f5f5;
-  height: 250px;
+  height: 210px;
 }
-.name-title {
+.intro-name {
   padding: 50px 0px 20px 50px;
+  color: #444444;
+  overflow: hidden;
+}
+.fade-two {
+  animation: fade-in 2s;
+}
+.fade-five {
+  animation: fade-in 4s;
+}
+.intro-title {
+  padding: 20px 0px 0px 100px;
+  color: #444444;
 }
 .project-title-container {
   text-align: center;
@@ -77,12 +89,49 @@ img {
   align-items: center;
   margin-bottom: -30px;
 }
+.project-title {
+  color: #444444;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -40%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slide-right-two {
+  from {
+    margin-left: -100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media all and (max-width: 1690px) {
 }
 @media all and (max-width: 1280px) {
   img {
     width: 400px;
     height: 250px;
+  }
+  .link {
+    width: 100%;
+    height: 100%;
   }
 }
 @media all and (max-width: 980px) {
@@ -94,4 +143,18 @@ img {
   }
 }
 @media all and (max-width: 480px) {
+  img {
+    width: 260px;
+    height: 150px;
+  }
+  .intro-container {
+    height: 45vh;
+  }
+  .intro-title {
+    padding: 30px 10px 0px 30px;
+  }
+  .intro-name {
+    font-size: 24px;
+    padding: 30px 0px 0px 30px;
+  }
 }
