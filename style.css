@@ -177,11 +177,11 @@ div.slide-right p {
   }
   .mobile-link-board {
     margin: 20px 0px;
-    animation: slide-right 1.5s ease-in;
+    animation: slide-right 0.75s linear;
   }
   .mobile-link,
   .mobile-link:visited {
-    font-family: PT Serif;
+    font-family: Lato;
     text-decoration: none;
     color: #444444;
     padding: 10px;
