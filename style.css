@@ -177,7 +177,7 @@ div.slide-right p {
   }
   .mobile-link-board {
     margin: 20px 0px;
-    animation: slide-right 1s ease-in;
+    animation: slide-right 1.5s ease-in;
   }
   .mobile-link,
   .mobile-link:visited {
