@@ -176,8 +176,8 @@ div.slide-right p {
     display: none;
   }
   .mobile-link-board {
-    margin: 20px 0px;
-    animation: slide-right 0.75s linear;
+    margin: 28px 0px;
+    animation: slide-right 0.9s linear;
   }
   .mobile-link,
   .mobile-link:visited {
