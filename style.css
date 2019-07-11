@@ -87,11 +87,9 @@ img {
 }
 .intro-name {
   margin-bottom: 30px;
-}
-.fade-two {
   animation: fade-in 2s;
 }
-.fade-five {
+.intro-title {
   animation: fade-in 3s;
 }
 .project-title-container {
@@ -104,6 +102,7 @@ img {
 }
 .project-title {
   color: #444444;
+  animation: fade-in 2s;
 }
 .fab {
   margin: 0px 10px;
@@ -177,7 +176,8 @@ div.slide-right p {
   }
   .mobile-link-board {
     margin: 28px 0px;
-    animation: slide-right 0.9s linear;
+    /* animation: slide-right 0.9s linear; */
+    animation: fade-in 1s;
   }
   .mobile-link,
   .mobile-link:visited {
