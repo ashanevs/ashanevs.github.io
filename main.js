@@ -6,6 +6,7 @@ const emailLink = document.querySelector(".email-link");
 mobileNavShow();
 swapEmail();
 emailClipboard();
+removeMobileClipboard();
 
 function mobileNavShow() {
   if (screen.width < 480) {
@@ -40,7 +41,9 @@ function emailClipboard() {
   emailLink.addEventListener("click", e => {
     e.preventDefault();
     copyStringToClipboard("ashanev@gmail.com");
-    emailLink.setAttribute("data-tooltip", "Copied to clipboard");
+    if (screen.width > 480) {
+      emailLink.setAttribute("data-tooltip", "Copied to clipboard");
+    }
   });
 }
 
@@ -53,4 +56,10 @@ function copyStringToClipboard(str) {
   el.select();
   document.execCommand("copy");
   document.body.removeChild(el);
+}
+
+function removeMobileClipboard() {
+  if (screen.width < 480) {
+    emailLink.removeAttribute("data-tooltip");
+  }
 }
