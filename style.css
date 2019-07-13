@@ -111,12 +111,6 @@ img {
 .visible {
   display: none;
 }
-/* div.slide-right p {
-  animation: 10s slide-right;
-} */
-.slide-up {
-  animation: 3s slide-up;
-}
 .email-link {
   text-decoration: none;
   font-size: 20px;
@@ -124,20 +118,6 @@ img {
 .footer-icons {
   display: flex;
   align-items: center;
-}
-.clipboard-prompt {
-  display: absolute;
-}
-@keyframes slide-up {
-  from {
-    margin-top: 100%;
-    height: 300%;
-  }
-
-  to {
-    margin-top: 0%;
-    height: 100%;
-  }
 }
 @keyframes fade-in {
   0% {
@@ -202,12 +182,12 @@ img {
     transform: scale(1);
   }
 }
+
 [data-tooltip] {
   position: relative;
   z-index: 2;
   cursor: pointer;
 }
-
 /* Hide the tooltip content by default */
 [data-tooltip]:before,
 [data-tooltip]:after {
@@ -217,7 +197,6 @@ img {
   opacity: 0;
   pointer-events: none;
 }
-
 /* Position tooltip above the element */
 [data-tooltip]:before {
   position: absolute;
@@ -238,7 +217,6 @@ img {
   font-size: 14px;
   line-height: 1.2;
 }
-
 /* Triangle hack to make tooltip look like a speech bubble */
 [data-tooltip]:after {
   position: absolute;
@@ -254,7 +232,6 @@ img {
   font-size: 0;
   line-height: 0;
 }
-
 /* Show tooltip content on hover */
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after {
