@@ -40,7 +40,7 @@ function emailClipboard() {
   emailLink.addEventListener("click", e => {
     e.preventDefault();
     copyStringToClipboard("ashanev@gmail.com");
-    emailLink.setAttribute("data-tooltip", "Copied!");
+    emailLink.setAttribute("data-tooltip", "Copied to clipboard");
   });
 }
 
