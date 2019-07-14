@@ -87,10 +87,6 @@ img {
 }
 .intro-name {
   margin-bottom: 30px;
-  animation: fade-in 2s;
-}
-.intro-title {
-  animation: fade-in 3s;
 }
 .project-title-container {
   text-align: center;
@@ -102,7 +98,7 @@ img {
 }
 .project-title {
   color: #444444;
-  animation: fade-in 2s;
+  animation: fade-in 4s;
 }
 .fab,
 .fas {
@@ -118,6 +114,24 @@ img {
 .footer-icons {
   display: flex;
   align-items: center;
+}
+.first-text {
+  animation: fade-in 1s;
+}
+.second-text {
+  animation: fade-in 2s;
+}
+.third-text {
+  animation: fade-in 2.5s;
+}
+.fourth-text {
+  animation: fade-in 3.5s;
+}
+.fifth-text {
+  animation: fade-in 4s;
+}
+.sixth-text {
+  animation: fade-in 4.5s;
 }
 @keyframes fade-in {
   0% {
