@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 30px;
+  animation: fade-in 8s;
 }
 .project {
   transition: all 0.3s ease;
@@ -98,7 +99,7 @@ img {
 }
 .project-title {
   color: #444444;
-  animation: fade-in 4s;
+  animation: fade-in 8s;
 }
 .fab,
 .fas {
@@ -116,25 +117,26 @@ img {
   align-items: center;
 }
 .first-text {
-  animation: fade-in 1s;
+  animation: fade-in 1s ease-in;
 }
 .second-text {
-  animation: fade-in 2s;
+  animation: fade-in 3s ease;
 }
 .third-text {
-  animation: fade-in 2.5s;
+  animation: fade-in 3s ease;
 }
 .fourth-text {
-  animation: fade-in 3.5s;
+  animation: fade-in 5s ease;
 }
 .fifth-text {
-  animation: fade-in 4s;
+  animation: fade-in 7s;
 }
-.sixth-text {
-  animation: fade-in 4.5s;
-}
+
 @keyframes fade-in {
   0% {
+    opacity: 0;
+  }
+  50% {
     opacity: 0;
   }
   100% {
