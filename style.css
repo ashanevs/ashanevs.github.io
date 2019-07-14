@@ -10,7 +10,6 @@
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 30px;
-  animation: fade-in 8s;
 }
 .project {
   transition: all 0.3s ease;
@@ -58,7 +57,8 @@ img {
 }
 .intro-container {
   background: #f5f5f5;
-  height: 350px;
+  /* height: 350px; */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +99,6 @@ img {
 }
 .project-title {
   color: #444444;
-  animation: fade-in 8s;
 }
 .fab,
 .fas {
@@ -168,9 +167,9 @@ img {
     width: 290px;
     height: 180px;
   }
-  .intro-container {
+  /* .intro-container {
     height: 300px;
-  }
+  } */
   .project:hover > .link-board {
     display: none;
   }
