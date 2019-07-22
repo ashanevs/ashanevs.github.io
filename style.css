@@ -1,7 +1,7 @@
 * {
   margin: 0 auto;
   padding: 0;
-  font-family: Lato;
+  font-family: Lato, Arial, Helvetica, sans-serif;
 }
 .project-container {
   display: flex;
@@ -127,16 +127,16 @@ img {
   animation: fade-in 1s ease-in;
 }
 .fourth-text {
-  animation: fade-in 1.5s ease-in;
+  animation: fade-in 0.5s ease-in;
 }
 .fifth-text {
-  animation: fade-in 1.5s ease-in;
+  animation: fade-in 1s ease-in;
 }
 @keyframes fade-in {
   0% {
     opacity: 0;
   }
-  80% {
+  100% {
     opacity: 1;
   }
 }
@@ -177,7 +177,7 @@ img {
   }
   .mobile-link,
   .mobile-link:visited {
-    font-family: Lato;
+    font-family: Lato, Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #444444;
     padding: 10px;
