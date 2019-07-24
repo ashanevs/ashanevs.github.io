@@ -118,7 +118,7 @@ img {
   align-items: center;
 }
 .first-text {
-  animation: fade-in 0.5s ease-in;
+  animation: fade-in 1s ease-in;
 }
 .second-text {
   animation: fade-in 1s ease-in;
@@ -127,7 +127,7 @@ img {
   animation: fade-in 1s ease-in;
 }
 .fourth-text {
-  animation: fade-in 0.5s ease-in;
+  animation: fade-in 1s ease-in;
 }
 .fifth-text {
   animation: fade-in 1s ease-in;
