@@ -100,7 +100,6 @@ html {
   height: 100px;
   display: flex;
   font-size: 32px;
-  position: relative;
 }
 .footer-icons {
   display: flex;
@@ -224,7 +223,7 @@ li::before {
   margin: 4px auto;
 }
 .contact-container {
-  height: 100vh;
+  height: 670px;
   background: #262934;
 }
 #contact-message {
