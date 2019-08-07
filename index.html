@@ -14,143 +14,247 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico" />
-    <script src="https://kit.fontawesome.com/05427a3726.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/05427a3726.js"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Shane Vann-Shirley | Software Engineer</title>
   </head>
   <body>
-    <div class="intro-container">
+    <div class="intro-container" id="intro">
       <h1 class="intro-name">
-        <span class="first-text">Hi,</span> <span class="second-text">I'm</span>
-        <span class="third-text">Shane Vann&#x2011;Shirley.</span>
+        Hello, I'm <span id="my-name">Shane Vann&#x2011;Shirley</span>.
       </h1>
       <h2 class="intro-title">
-        <span class="fourth-text">I'm a software engineer.</span>
-        <span class="fifth-text"
-          >I build user-friendly applications to create dynamic and intuitive
-          experiences.</span
-        >
+        I'm a software engineer. I build user-friendly applications to create
+        dynamic and intuitive experiences.
+      </h2>
+      <h2 class="intro-work-link">
+        View My Work
+        <!-- <i class="fas fa-long-arrow-alt-right"></i> -->
       </h2>
     </div>
-    <div class="project-title-container">
-      <h1 class="project-title">My Work</h1>
+    <div class="nav-container">
+      <div class="nav-link-container">
+        <a href="#intro" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="ShaneVannShirleyResume.pdf" target="_blank" class="nav-link"
+          >Resume</a
+        >
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
     </div>
-    <div class="project-container">
-      <div class="project grow">
-        <div class="link-board">
-          <a
-            href="https://chartsroyale.surge.sh/"
-            target="_blank"
-            rel="noopener noreferer"
-            class="project-link"
+
+    <div class="about-container">
+      <h1 class="title" id="about">ABOUT</h1>
+
+      <div class="about-icons">
+        <div class="about-section">
+          <img src="lightbulb.png" class="about-image" />Easy to use and
+          intuitive user experiences
+        </div>
+        <div class="about-section">
+          <img src="fast.png" class="about-image" />Fast load times & lag free
+          interactions
+        </div>
+
+        <div class="about-section">
+          <img src="responsive.png" class="about-image" />Reponsive designs for
+          use across many device sizes
+        </div>
+        <!-- <div class="about-section">
+          <img src="rocket.png" class="about-image" />I make pages come to life
+        </div> -->
+      </div>
+      <div class="about-section-bottom">
+        <div class="pic-and-description">
+          <img src="shane3.png" class="self-pic" />
+          <p>
+            Shane Vann-Shirley
+          </p>
+          <p>Software Engineer</p>
+          <p>Washington, DC</p>
+        </div>
+        <div class="skill-container">
+          <h2>SKILLS</h2>
+          <div class="skills-lists">
+            <ul>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express</li>
+            </ul>
+            <ul>
+              <li>Python</li>
+              <li>PostrgreSQL</li>
+
+              <li>Django</li>
+              <li>MongoDB</li>
+            </ul>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3/Sass</li>
+              <li>Git/Github</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-section">
+      <h1 class="project-title title">PROJECTS</h1>
+
+      <div class="project-container ">
+        <div class="project grow">
+          <div class="link-board">
+            <!-- <p class="project-link">Show Details</p> -->
+            <a
+              href="https://chartsroyale.surge.sh/"
+              target="_blank"
+              rel="noopener noreferer"
+              class="project-link"
+              >Deployed Site
+            </a>
+            <a
+              href="https://github.com/ashanevs/charts-royale"
+              target="_blank"
+              rel="noopener noreferer"
+              class="project-link"
+              >Visit Repo</a
+            >
+            <!-- <p class="project-description">
+            Charts Royale is a data visualization tool based on the mobile game
+            Clash Royale built with React & Charts.js.
+          </p> -->
+          </div>
+          <img src="chartsroyale.png" class="project-pic" />
+        </div>
+        <div class="mobile-link-board visible">
+          <a href="https://chartsroyale.surge.sh/" class="mobile-link"
             >Deployed Site
           </a>
           <a
             href="https://github.com/ashanevs/charts-royale"
-            target="_blank"
-            rel="noopener noreferer"
-            class="project-link"
+            class="mobile-link"
             >Visit Repo</a
           >
         </div>
-        <img src="chartsroyale.png" />
-      </div>
-      <div class="mobile-link-board visible">
-        <a href="https://chartsroyale.surge.sh/" class="mobile-link"
-          >Deployed Site
-        </a>
-        <a href="https://github.com/ashanevs/charts-royale" class="mobile-link"
-          >Visit Repo</a
-        >
-      </div>
-      <div class="project grow">
-        <div class="link-board">
-          <a
-            href="http://flickpick.surge.sh/"
-            target="_blank"
-            rel="noopener noreferer"
-            class="project-link"
+        <div class="project grow">
+          <div class="link-board">
+            <a
+              href="http://flickpick.surge.sh/"
+              target="_blank"
+              rel="noopener noreferer"
+              class="project-link"
+              >Deployed Site
+            </a>
+            <a
+              href="https://github.com/ashanevs/flickpick"
+              target="_blank"
+              rel="noopener noreferer"
+              class="project-link"
+              >Visit Repo</a
+            >
+          </div>
+          <img src="flickpick.png" class="project-pic" />
+        </div>
+        <div class="mobile-link-board visible">
+          <a href="http://flickpick.surge.sh/" class="mobile-link"
             >Deployed Site
           </a>
-          <a
-            href="https://github.com/ashanevs/flickpick"
-            target="_blank"
-            rel="noopener noreferer"
-            class="project-link"
+          <a href="https://github.com/ashanevs/flickpick" class="mobile-link"
             >Visit Repo</a
           >
         </div>
-        <img src="flickpick.png" />
-      </div>
-      <div class="mobile-link-board visible">
-        <a href="http://flickpick.surge.sh/" class="mobile-link"
-          >Deployed Site
-        </a>
-        <a href="https://github.com/ashanevs/flickpick" class="mobile-link"
-          >Visit Repo</a
-        >
-      </div>
-      <div class="project grow">
-        <div class="link-board">
+        <div class="project grow">
+          <div class="link-board">
+            <a
+              href="https://hearthstone-card-api.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferer"
+              class="project-link"
+              >Deployed Site
+            </a>
+            <a
+              href="https://github.com/ashanevs/hearthstone-api"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferer"
+              >Visit Repo</a
+            >
+          </div>
+          <img src="hearthstone-api.png" class="project-pic" />
+        </div>
+        <div class="mobile-link-board visible">
           <a
             href="https://hearthstone-card-api.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferer"
-            class="project-link"
+            class="mobile-link"
             >Deployed Site
           </a>
           <a
             href="https://github.com/ashanevs/hearthstone-api"
-            class="project-link"
-            target="_blank"
-            rel="noopener noreferer"
+            class="mobile-link"
             >Visit Repo</a
           >
         </div>
-        <img src="hearthstone-api.png" />
-      </div>
-      <div class="mobile-link-board visible">
-        <a
-          href="https://hearthstone-card-api.herokuapp.com/"
-          class="mobile-link"
-          >Deployed Site
-        </a>
-        <a
-          href="https://github.com/ashanevs/hearthstone-api"
-          class="mobile-link"
-          >Visit Repo</a
-        >
-      </div>
-      <div class="project grow">
-        <div class="link-board">
+        <div class="project grow">
+          <div class="link-board">
+            <a
+              href="https://ashanevs.github.io/tower-of-hanoi/"
+              target="_blank"
+              rel="noopener noreferer"
+              class="project-link"
+              >Deployed Site
+            </a>
+            <a
+              href="https://github.com/ashanevs/tower-of-hanoi"
+              target="_blank"
+              rel="noopener noreferer"
+              class="project-link"
+              >Visit Repo</a
+            >
+          </div>
+          <img src="tower-of-hanoi.png" class="project-pic" />
+        </div>
+        <div class="mobile-link-board visible">
           <a
             href="https://ashanevs.github.io/tower-of-hanoi/"
-            target="_blank"
-            rel="noopener noreferer"
-            class="project-link"
+            class="mobile-link"
             >Deployed Site
           </a>
           <a
             href="https://github.com/ashanevs/tower-of-hanoi"
-            target="_blank"
-            rel="noopener noreferer"
-            class="project-link"
+            class="mobile-link"
             >Visit Repo</a
           >
         </div>
-        <img src="tower-of-hanoi.png" />
       </div>
-      <div class="mobile-link-board visible">
-        <a href="https://ashanevs.github.io/tower-of-hanoi/" class="mobile-link"
-          >Deployed Site
-        </a>
-        <a href="https://github.com/ashanevs/tower-of-hanoi" class="mobile-link"
-          >Visit Repo</a
-        >
-      </div>
+    </div>
+    <div class="contact-container">
+      <h1 class="title" id="contact">CONTACT</h1>
+      <h2 id="contact-message">
+        Have a question or want to work together?
+      </h2>
+      <form action="https://formspree.io/ashanev@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Name" />
+        <input type="email" name="_replyto" placeholder="Email" />
+
+        <textarea type="text" name="body" placeholder="Message"></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
     </div>
     <div class="footer-container">
       <div class="footer-icons">
-        <i class="fas fa-envelope-square contact-link email-icon"></i>
+        <i class="fas fa-envelope contact-link email-icon"></i>
         <p
           class="contact-link email-link visible"
           data-tooltip="Copy to clipboard"
