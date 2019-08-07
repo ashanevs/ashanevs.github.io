@@ -100,6 +100,7 @@ html {
   height: 100px;
   display: flex;
   font-size: 32px;
+  position: relative;
 }
 .footer-icons {
   display: flex;
@@ -161,7 +162,7 @@ li::before {
   display: flex;
 }
 .self-pic {
-  height: 200px;
+  height: 220px;
   border-radius: 50%;
 }
 .contact-link,
@@ -401,6 +402,7 @@ form input[type="submit"]:hover {
     font-size: 22px;
   }
   .nav-link-container {
+    margin: 0;
     display: flex;
   }
   .about-container {
