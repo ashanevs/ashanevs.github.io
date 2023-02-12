@@ -38,10 +38,6 @@ p {
 	justify-content: center;
 }
 
-.main-section-info {
-	padding-top: 16px;
-}
-
 .image-myself {
 	margin-right: 50px;
 }
@@ -86,9 +82,11 @@ p {
 		margin-top: 0;
 		flex-direction: column;
 		align-items: center;
-		height: unset;
+		height: 50vh;
 		text-align: center;
 		padding: 0px 10%;
+		width: unset;
+		justify-content: space-between;
 	}
 
 	.image-myself {
