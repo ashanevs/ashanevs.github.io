@@ -27,7 +27,11 @@ a:active {
 
 p {
 	font-size: 18px;
-	margin: 25px 0px;
+	margin-top: 25px;
+}
+
+p:last-of-type {
+	margin-bottom: 25px;
 }
 
 .main-section-container {
@@ -35,10 +39,20 @@ p {
 	margin: 240px auto 0 auto;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+
+.main-section-info {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95%;
 }
 
 .image-myself {
+	height: 240px;
 	margin-right: 50px;
+	border-radius: 3px;
 }
 
 .span-divider {
@@ -62,15 +76,20 @@ p {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1100px) {
+	body {
+		height: 100vh;
+	}
+
 	header {
 		margin: 25px 0px 44px 18px;
 	}
 
 	h1 {
-		font-size: 24px;
+		font-size: 30px;
 		display: flex;
 		flex-direction: column;
+		margin-top: 25px;
 	}
 
 	p {
@@ -89,7 +108,6 @@ p {
 	}
 
 	.image-myself {
-		width: 150px;
 		margin: 0;
 	}
 
@@ -98,6 +116,6 @@ p {
 	}
 
 	.span-software-engineer {
-		font-size: 18px;
+		font-size: 26px;
 	}
 }
